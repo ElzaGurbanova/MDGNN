@@ -1,6 +1,24 @@
 
 # MDGNN: Graph Neural Network based Data Flow Analysis for JS Vulnerability Detection (Path Traversal & Command Injection)
 
+**MDGNN** is a research artifact produced as part of the **Information Security MSc dissertation at University College London (UCL)**. The project investigates **graph-based vulnerability detection for JavaScript**, with a focus on **Path Traversal (CWE-22)** and **Command Injection (CWE-78)**. We curate a multi-source dataset (SecBench, Vulcan, Snyk, GitHub, and synthetic examples), generate **Multiversion Dependency Graphs (MDGs)** via **GraphJS**, and train a **multi-task Graph Neural Network (R-GCN)** to perform per-graph classification for both vulnerability types.
+
+The repository provides: (i) the **dataset index files** (`index.csv`, `index_clean.csv`) and **per-sample MDGs** (`nodes.csv`, `rels.csv`, `graph_stats.json`), (ii) a **reproducible training pipeline** (`train_multitask_rgcn.py`) with **grouped cross-validation** to prevent cross-project leakage, and (iii) **utilities** to regenerate MDGs and build indices from standardized folder layouts. The aims are to (a) establish a transparent, extensible baseline for MDG-level vulnerability detection in JavaScript and (b) document practical considerations—data quality, splitting strategies, and threshold calibration—that materially affect evaluation.
+
+### Key contributions
+
+* A **curated, labeled dataset** for CWE-22/CWE-78 spanning multiple sources, with consistent graph exports and documented preprocessing.
+* A **multi-task GNN** (shared encoder, two heads) with **label masking**, **grouped K-fold CV**, and **validation-tuned thresholds** evaluated on held-out test folds.
+* **Reproducible scripts** for dataset indexing, MDG regeneration, and training, suitable for local (macOS) and Colab (GPU) environments.
+
+### Intended use & ethics
+
+This dataset and code are provided **for academic research and education** in secure software engineering and program analysis. They should **not** be used to construct or deploy exploit tooling. Please respect upstream licenses and attribution for all third-party sources included or referenced in the dataset.
+
+
+
+
+
 This repository contains:
 
 * **Dataset** of JavaScript projects and single-file samples labeled for
