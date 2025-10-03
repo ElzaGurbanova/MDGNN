@@ -1,0 +1,16 @@
+Id:ID¿Type¿SubType¿FunctionContext¿IdentifierName¿Raw¿InternalStructure¿Location¿Code¿Label:LABEL
+15¿Program¿¿-1¿¿¿¿{"start":{"line":1,"column":0},"end":{"line":80,"column":1},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Vulnerable/path_traversal/recent_snyk/path-sanitizer/index.js"}¿¿Program
+16¿ImportDeclaration¿¿27¿¿¿¿{"start":{"line":1,"column":0},"end":{"line":1,"column":43},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Vulnerable/path_traversal/recent_snyk/path-sanitizer/index.js"}¿¿ImportDeclaration
+17¿ExportNamedDeclaration¿¿27¿¿¿¿{"start":{"line":3,"column":0},"end":{"line":20,"column":1},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Vulnerable/path_traversal/recent_snyk/path-sanitizer/index.js"}¿¿ExportNamedDeclaration
+18¿VariableDeclarator¿¿27¿v39¿¿¿{"start":{"line":5,"column":4},"end":{"line":8,"column":5},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Vulnerable/path_traversal/recent_snyk/path-sanitizer/index.js"}¿¿VariableDeclarator
+19¿ObjectExpression¿¿27¿¿¿¿{"start":{"line":5,"column":4},"end":{"line":8,"column":5},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Vulnerable/path_traversal/recent_snyk/path-sanitizer/index.js"}¿¿ObjectExpression
+20¿Property¿¿27¿¿¿¿{"start":{"line":6,"column":6},"end":{"line":6,"column":19},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Vulnerable/path_traversal/recent_snyk/path-sanitizer/index.js"}¿¿Property
+21¿Identifier¿¿27¿regex¿¿¿{"start":{"line":6,"column":6},"end":{"line":6,"column":11},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Vulnerable/path_traversal/recent_snyk/path-sanitizer/index.js"}¿¿Identifier
+22¿Literal¿object¿27¿¿/%2e/g¿¿{"start":{"line":6,"column":13},"end":{"line":6,"column":19},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Vulnerable/path_traversal/recent_snyk/path-sanitizer/index.js"}¿¿Literal
+23¿Property¿¿27¿¿¿¿{"start":{"line":7,"column":6},"end":{"line":7,"column":22},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Vulnerable/path_traversal/recent_snyk/path-sanitizer/index.js"}¿¿Property
+24¿Identifier¿¿27¿replacement¿¿¿{"start":{"line":7,"column":6},"end":{"line":7,"column":17},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Vulnerable/path_traversal/recent_snyk/path-sanitizer/index.js"}¿¿Identifier
+25¿Literal¿string¿27¿¿'.'¿¿{"start":{"line":7,"column":19},"end":{"line":7,"column":22},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Vulnerable/path_traversal/recent_snyk/path-sanitizer/index.js"}¿¿Literal
+26¿ExportDefaultDeclaration¿¿27¿¿¿¿{"start":{"line":25,"column":0},"end":{"line":80,"column":1},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Vulnerable/path_traversal/recent_snyk/path-sanitizer/index.js"}¿¿ExportDefaultDeclaration
+27¿CFG_F_START¿¿27¿__main__¿¿¿¿¿CFG_F_START
+28¿CFG_F_END¿¿0¿__main__¿¿¿¿¿CFG_F_END
+29¿TAINT_SOURCE¿¿0¿TAINT_SOURCE¿¿¿¿¿TAINT_SOURCE

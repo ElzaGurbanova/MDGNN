@@ -1,0 +1,8 @@
+Id:ID¿Type¿SubType¿FunctionContext¿IdentifierName¿Raw¿InternalStructure¿Location¿Code¿Label:LABEL
+7¿Program¿¿-1¿¿¿¿{"start":{"line":1,"column":0},"end":{"line":49,"column":1},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/path_traversal/github/monopoly-ia-matchup/game-log.js"}¿¿Program
+8¿ImportDeclaration¿¿11¿¿¿¿{"start":{"line":1,"column":0},"end":{"line":1,"column":20},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/path_traversal/github/monopoly-ia-matchup/game-log.js"}¿¿ImportDeclaration
+9¿ImportDeclaration¿¿11¿¿¿¿{"start":{"line":2,"column":0},"end":{"line":2,"column":24},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/path_traversal/github/monopoly-ia-matchup/game-log.js"}¿¿ImportDeclaration
+10¿ExportDefaultDeclaration¿¿11¿¿¿¿{"start":{"line":4,"column":0},"end":{"line":49,"column":1},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/path_traversal/github/monopoly-ia-matchup/game-log.js"}¿¿ExportDefaultDeclaration
+11¿CFG_F_START¿¿11¿__main__¿¿¿¿¿CFG_F_START
+12¿CFG_F_END¿¿0¿__main__¿¿¿¿¿CFG_F_END
+13¿TAINT_SOURCE¿¿0¿TAINT_SOURCE¿¿¿¿¿TAINT_SOURCE

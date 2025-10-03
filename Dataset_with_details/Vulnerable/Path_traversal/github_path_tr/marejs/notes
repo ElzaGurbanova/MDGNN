@@ -1,0 +1,5 @@
+LINK: https://github.com/emadklenka/marejs/blob/9095580e498b84229f27264111be214546c33a95/.mareJS/mare_server.js#L2
+Notes: vulnerable in two places.
+In the API dynamic loader, you build routePath = path.join(__dirname, req.path) (which ignores __dirname if req.path starts with /) and then use that routePath for imports. Although you compute a safe resolvedPath, you never actually use it — so a crafted path could steer imports outside the intended api/ tree.
+In the WebSocket router, loadWSHandler(routeName) does path.join(WSS_DIR, \${routeName}.js`)with no containment checks. A route like/api/wss/../../serverwould resolve outsidewss/` and let an attacker import arbitrary JS modules on the server.
+Both versions in the dataset. 

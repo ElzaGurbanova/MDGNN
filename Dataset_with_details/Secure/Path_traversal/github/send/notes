@@ -1,0 +1,2 @@
+https://github.com/pillarjs/send/blob/master/index.js
+The low-level file sender used under Express. It performs normalization, supports a root option (anchoring paths inside a base directory), and lets you deny/ignore dotfiles—features that mitigate traversal when used correctly.

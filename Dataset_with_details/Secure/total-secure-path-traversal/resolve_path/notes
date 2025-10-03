@@ -1,0 +1,2 @@
+https://github.com/pillarjs/resolve-path/blob/master/index.js
+Purpose-built to resolve a relative path against a root and throw if the result is malicious (absolute, contains NUL, escapes the root, or traverses above it and back down). Ideal reference for strict resolution logic

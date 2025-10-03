@@ -1,0 +1,4 @@
+LINK: https://github.com/RespectMathias/express-routeless-mvc/blob/3334b27d95a9f0bb5ac6bd0a52bc5539ec86cb7b/index.js#L2
+Notes: the routeless MVC handler is almost safe, but it can be abused via symlink traversal in the views directory.
+findExistingFile() uses path.resolve() on viewsDir/baseName+ext and checks with path.relative(), but resolve() does not resolve symlinks. If views/<page>.html is a symlink to /etc/passwd, the check still passes and res.sendFile() will follow the link and serve a file outside your views root.
+This is fixed version.

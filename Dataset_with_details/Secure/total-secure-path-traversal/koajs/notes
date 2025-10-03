@@ -1,0 +1,2 @@
+https://github.com/koajs/static/blob/master/index.js
+Thin, well‑maintained wrapper around koa-send. The README explicitly notes “nothing above this root directory can be served,” so it’s appropriate as a negative sample

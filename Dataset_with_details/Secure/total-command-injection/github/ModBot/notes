@@ -1,0 +1,2 @@
+LINK: https://github.com/BudasLounge/ModBot/blob/4a9525d4777bd4e232507539d553510d628aa414/modules/minecraft/commands/servermanager.js#L46
+Note: Fixed version. Inputs are allow-listed/validated, but exec() still invokes a shell. Switch to execFile and argv.

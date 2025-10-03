@@ -1,0 +1,13 @@
+{
+  "id": "",
+  "dependencies": {
+    "tinyserver": "0.1.1"
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:tinyserver:20170910",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": "lib/main.js:52:9"
+}

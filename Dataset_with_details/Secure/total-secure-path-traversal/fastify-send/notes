@@ -1,0 +1,2 @@
+https://github.com/fastify/send/blob/main/index.js
+A maintained fork of send (originally to address CVE‑2017‑20165) with the same safety model (root confinement, dotfile policies). Good modern reference implementation.

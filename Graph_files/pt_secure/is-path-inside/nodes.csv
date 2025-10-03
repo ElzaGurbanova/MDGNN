@@ -1,0 +1,7 @@
+Id:ID¿Type¿SubType¿FunctionContext¿IdentifierName¿Raw¿InternalStructure¿Location¿Code¿Label:LABEL
+6¿Program¿¿-1¿¿¿¿{"start":{"line":1,"column":0},"end":{"line":12,"column":1},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/path_traversal/github/is-path-inside/index.js"}¿¿Program
+7¿ImportDeclaration¿¿9¿¿¿¿{"start":{"line":1,"column":0},"end":{"line":1,"column":29},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/path_traversal/github/is-path-inside/index.js"}¿¿ImportDeclaration
+8¿ExportDefaultDeclaration¿¿9¿¿¿¿{"start":{"line":3,"column":0},"end":{"line":12,"column":1},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/path_traversal/github/is-path-inside/index.js"}¿¿ExportDefaultDeclaration
+9¿CFG_F_START¿¿9¿__main__¿¿¿¿¿CFG_F_START
+10¿CFG_F_END¿¿0¿__main__¿¿¿¿¿CFG_F_END
+11¿TAINT_SOURCE¿¿0¿TAINT_SOURCE¿¿¿¿¿TAINT_SOURCE

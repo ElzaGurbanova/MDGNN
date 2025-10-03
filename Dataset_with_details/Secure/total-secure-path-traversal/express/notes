@@ -1,0 +1,2 @@
+https://github.com/expressjs/express/blob/0a48e18056865364b2461b2ece7ccb2d1075d3c9/lib/response.js
+res.sendFile calls send internally. Historical discussions explain that without a root you’ll see errors for .. in paths—i.e., Express expects safe rooting here. (Useful as an application‑level call site that uses send safely.)

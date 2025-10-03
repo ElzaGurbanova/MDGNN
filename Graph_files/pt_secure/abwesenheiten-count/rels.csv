@@ -1,0 +1,10 @@
+FromId:START_ID¿ToId:END_ID¿RelationLabel:TYPE¿RelationType¿IdentifierName¿ArgumentIndex¿ParamIndex¿StmtIndex¿ElementIndex¿ExpressionIndex¿MethodIndex¿SourceObjName¿IsProp
+8¿9¿AST¿1¿¿¿¿¿¿¿¿¿false
+8¿10¿AST¿2¿¿¿¿¿¿¿¿¿false
+8¿11¿AST¿3¿¿¿¿¿¿¿¿¿false
+8¿12¿AST¿4¿¿¿¿¿¿¿¿¿false
+13¿9¿CFG¿¿¿¿¿¿¿¿¿¿false
+9¿10¿CFG¿¿¿¿¿¿¿¿¿¿false
+10¿11¿CFG¿¿¿¿¿¿¿¿¿¿false
+11¿12¿CFG¿¿¿¿¿¿¿¿¿¿false
+12¿14¿CFG¿¿¿¿¿¿¿¿¿¿false

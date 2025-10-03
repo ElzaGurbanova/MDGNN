@@ -1,0 +1,13 @@
+{
+  "id": "",
+  "dependencies": {
+    "isv-http": "0.0.9"
+  },
+  "links": {
+    "source1": "https://security.snyk.io/vuln/npm:isv-http:20180226",
+    "source2": ""
+  },
+  "fixedVersion": "n/a",
+  "fixCommit": "n/a",
+  "sink": "index.js:47:20"
+}

@@ -1,0 +1,5 @@
+LINK: https://github.com/zzarcon/devtool/blob/82c6c558b000dc5d38ca7ab140ba23633892c319/server.js#L69
+Notes: the `interceptBufferProtocol('file', …)` handler is **vulnerable**: it rewrites any `file://` URL to a filesystem path based on
+`file = file.substring(7); file = path.resolve(cwd, path.relative(__dirname, file));`
+This allows **absolute-path override** and **traversal via symlinks**. For example, a `file:///etc/passwd` request becomes a path that can resolve outside your project. You meant to restrict loads to the current working directory (`cwd`), but there’s no containment check.
+Both versions included in the dataset. 

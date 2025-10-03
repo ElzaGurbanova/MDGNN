@@ -1,0 +1,4 @@
+LINK: https://github.com/mattdesl/webvrrocks/blob/9391b0452baf160aac94de682979274e5b67195e/dev.js#L13
+Notes: **vulnerable to path issues** in the “nice URLs” middleware.  
+`fileRelative = path.join(OPTS.assets.inputDir, pathname + '.html')` uses the URL `pathname` directly. Because URL paths begin with `/`, `path.join(base, '/foo')` **drops `base`**; plus `..` segments aren’t blocked. This can lead to filesystem probing outside your intended `public` dir and inconsistent rewrites.
+Both versions included in the dataset. 

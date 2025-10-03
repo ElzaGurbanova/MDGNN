@@ -1,0 +1,2 @@
+https://github.com/hapijs/inert/blob/master/lib/file.js
+Hapi’s static file & directory handlers. They implement safe resolution and honor a confine (root) concept to prevent escaping. The public API doc also explains these constraints

@@ -1,0 +1,12 @@
+Id:ID¿Type¿SubType¿FunctionContext¿IdentifierName¿Raw¿InternalStructure¿Location¿Code¿Label:LABEL
+11¿Program¿¿-1¿¿¿¿{"start":{"line":1,"column":0},"end":{"line":113,"column":1},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/command-injection/github/atom-latex-plus/compiler.js"}¿¿Program
+12¿ExpressionStatement¿¿19¿¿¿¿{"start":{"line":1,"column":0},"end":{"line":1,"column":12},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/command-injection/github/atom-latex-plus/compiler.js"}¿¿ExpressionStatement
+13¿Literal¿string¿19¿¿'use babel'¿¿{"start":{"line":1,"column":0},"end":{"line":1,"column":11},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/command-injection/github/atom-latex-plus/compiler.js"}¿¿Literal
+14¿ImportDeclaration¿¿19¿¿¿¿{"start":{"line":3,"column":0},"end":{"line":3,"column":41},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/command-injection/github/atom-latex-plus/compiler.js"}¿¿ImportDeclaration
+15¿ImportDeclaration¿¿19¿¿¿¿{"start":{"line":4,"column":0},"end":{"line":4,"column":20},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/command-injection/github/atom-latex-plus/compiler.js"}¿¿ImportDeclaration
+16¿ImportDeclaration¿¿19¿¿¿¿{"start":{"line":5,"column":0},"end":{"line":5,"column":24},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/command-injection/github/atom-latex-plus/compiler.js"}¿¿ImportDeclaration
+17¿ImportDeclaration¿¿19¿¿¿¿{"start":{"line":6,"column":0},"end":{"line":6,"column":31},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/command-injection/github/atom-latex-plus/compiler.js"}¿¿ImportDeclaration
+18¿ExportDefaultDeclaration¿¿19¿¿¿¿{"start":{"line":8,"column":0},"end":{"line":113,"column":1},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/command-injection/github/atom-latex-plus/compiler.js"}¿¿ExportDefaultDeclaration
+19¿CFG_F_START¿¿19¿__main__¿¿¿¿¿CFG_F_START
+20¿CFG_F_END¿¿0¿__main__¿¿¿¿¿CFG_F_END
+21¿TAINT_SOURCE¿¿0¿TAINT_SOURCE¿¿¿¿¿TAINT_SOURCE

@@ -1,0 +1,2 @@
+LINK: https://github.com/LvsalnNarayana/NodeJS/blob/8d299233406667ec33d944cbc483a1a79a64eda2/NodeJS-child-preocess/execCommand.js#L12
+Note: Fixed verison. Revise examples to use execFile with argv arrays and remove string interpolation.

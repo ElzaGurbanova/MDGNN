@@ -1,0 +1,2 @@
+LINK: https://github.com/harunjeylan/json_to_spss/blob/72c9b907ce9d130bef9bdf5e288fd6ed2f0f303b/convertJsonToSpss.js#L5
+Note: Fixed version. It builds a shell command string and calls exec. Even though you JSON.stringify the inputs, the resulting strings are inserted inside single quotes—if the JSON contains a ', it breaks out and can inject shell syntax. Use execFile with an argv array so there’s no shell to escape.

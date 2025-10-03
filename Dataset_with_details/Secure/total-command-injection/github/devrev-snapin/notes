@@ -1,0 +1,2 @@
+LINK: https://github.com/nimit2801/devrev-snapin/blob/59daf3cfc9322ad74fae41d1fbbb745b9b0be6a5/getTemplate.js#L115
+Note: Fixed version. Uses execSync('mv "... " "... "'): still a shell, and quotes can be broken. Use fs.renameSync().

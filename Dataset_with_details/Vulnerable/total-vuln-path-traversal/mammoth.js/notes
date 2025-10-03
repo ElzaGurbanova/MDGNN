@@ -1,0 +1,3 @@
+LINK: https://github.com/mwilliamson/mammoth.js/blob/master/lib/main.js
+Note: vulnerable/unsafe if paths come from untrusted input.
+As written, the CLI blindly uses argv["docx-path"], output-path, output_dir, and style_map. If those are supplied by an external caller (not the local user), they can point anywhere on disk, causing reads/writes outside the intended workspace. That’s classic path traversal when user input is not confined to a base.

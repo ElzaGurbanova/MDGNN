@@ -1,0 +1,3 @@
+LINK: https://security.snyk.io/vuln/SNYK-JS-GRAPHQLMESHHTTP-3323850
+GITHUB: https://github.com/ardatan/graphql-mesh/commit/95d93e7c140c2995b37e9d822aa3fe4e24ed2e78
+SINK: packages/http/src/index.ts

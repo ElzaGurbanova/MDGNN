@@ -1,0 +1,3 @@
+https://github.com/fastify/fastify-static/blob/main/index.js
+Fastify plugin that requires an absolute root and uses @fastify/send to stream files. Shows safe integration points (prefix mounting, no traversal above root).
+

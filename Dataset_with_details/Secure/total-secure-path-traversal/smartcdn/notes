@@ -1,0 +1,2 @@
+LINK: https://github.com/dev-kinsukghosh/smartcdn/blob/ea7e9280d86671c169b7fcd94345447f36eaae8f/server.js#L27
+Note: this code - app.get function has been modified to make it secure against absolute-path override + symlink escape. 

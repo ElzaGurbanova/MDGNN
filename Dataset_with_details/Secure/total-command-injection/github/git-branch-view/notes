@@ -1,0 +1,2 @@
+LINK: https://github.com/wise-toddler/git-branch-view/blob/bc9a03baf6b5bf01a1c4be940d50e8e8377003c5/gitService.js#L38
+Note: Fixed version. Runs exec('git ' + sanitizedString). Even with removing some metacharacters, it’s still a shell. Switch to execFile('git', argv) and validate inputs that become args (e.g., branch names) so they don’t start with - (no option injection).

@@ -1,0 +1,8 @@
+LINK: https://github.com/lovetwice1012/comebacktwitterembed/blob/7900a82bf99d0d01a9a3d06fe18ceeb2e0d3c0ec/server.js#L6
+Notes: antiDirectoryTraversalAttack is pretty good, but two issues remain:
+WS/ZIP endpoints
+In /download/:userid/:tweetID you call fs.readdir(dirPath, ...) but dirPath is never defined (you built filePath instead). That’s a bug that can lead to crashes and unpredictable behavior.
+When zipping, you add files from a directory without re-checking each file’s real path. A malicious symlink inside saves/<userid>/<tweetID>/ could point outside the saves tree and get included in the ZIP.
+Misused validator
+You pass the ZIP output path (tempDir/...zip) to antiDirectoryTraversalAttack, which validates only under the saves/ base. That rejects valid requests and doesn’t add security (you stream the archive to the client; you don’t write it to disk).
+Fixed version in the dataset.

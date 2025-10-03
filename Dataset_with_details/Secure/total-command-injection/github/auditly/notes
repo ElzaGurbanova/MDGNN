@@ -1,0 +1,2 @@
+LINK: https://github.com/scottpreston/auditly/blob/cc15fd18ce9c42eb3fb0c675fdf0dbbc7e8d60bd/lib/index.js#L40
+Note: Fixed against path traversal. 

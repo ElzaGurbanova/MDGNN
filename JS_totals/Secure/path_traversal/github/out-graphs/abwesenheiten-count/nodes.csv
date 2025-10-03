@@ -1,0 +1,9 @@
+Id:ID¿Type¿SubType¿FunctionContext¿IdentifierName¿Raw¿InternalStructure¿Location¿Code¿Label:LABEL
+8¿Program¿¿-1¿¿¿¿{"start":{"line":1,"column":0},"end":{"line":61,"column":1},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/path_traversal/github/abwesenheiten-count/fixed_dist.js"}¿¿Program
+9¿ImportDeclaration¿¿13¿¿¿¿{"start":{"line":1,"column":0},"end":{"line":1,"column":37},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/path_traversal/github/abwesenheiten-count/fixed_dist.js"}¿¿ImportDeclaration
+10¿ImportDeclaration¿¿13¿¿¿¿{"start":{"line":2,"column":0},"end":{"line":2,"column":46},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/path_traversal/github/abwesenheiten-count/fixed_dist.js"}¿¿ImportDeclaration
+11¿ImportDeclaration¿¿13¿¿¿¿{"start":{"line":3,"column":0},"end":{"line":3,"column":43},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/path_traversal/github/abwesenheiten-count/fixed_dist.js"}¿¿ImportDeclaration
+12¿ExportDefaultDeclaration¿¿13¿¿¿¿{"start":{"line":5,"column":0},"end":{"line":61,"column":1},"fname":"/Users/elza/Documents/Final_Dataset/JS_totals/Secure/path_traversal/github/abwesenheiten-count/fixed_dist.js"}¿¿ExportDefaultDeclaration
+13¿CFG_F_START¿¿13¿__main__¿¿¿¿¿CFG_F_START
+14¿CFG_F_END¿¿0¿__main__¿¿¿¿¿CFG_F_END
+15¿TAINT_SOURCE¿¿0¿TAINT_SOURCE¿¿¿¿¿TAINT_SOURCE

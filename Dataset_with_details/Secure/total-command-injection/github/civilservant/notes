@@ -1,0 +1,2 @@
+LINK: https://github.com/zuzakistan/civilservant/blob/85d393c101f0748451dbb6c1d3a8c9ec668483f3/modules/man.js#L4
+Note: switch to execFile('man', ['-f', page]) and validate input.

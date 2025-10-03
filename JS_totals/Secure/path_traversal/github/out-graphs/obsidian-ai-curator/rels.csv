@@ -1,0 +1,13 @@
+FromId:START_ID¿ToId:END_ID¿RelationLabel:TYPE¿RelationType¿IdentifierName¿ArgumentIndex¿ParamIndex¿StmtIndex¿ElementIndex¿ExpressionIndex¿MethodIndex¿SourceObjName¿IsProp
+15¿16¿AST¿block¿¿¿¿¿¿¿¿¿false
+14¿15¿AST¿init¿¿¿¿¿¿¿¿¿false
+13¿14¿AST¿declaration¿¿¿¿¿¿¿¿¿false
+11¿12¿AST¿1¿¿¿¿¿¿¿¿¿false
+11¿13¿AST¿2¿¿¿¿¿¿¿¿¿false
+17¿12¿CFG¿¿¿¿¿¿¿¿¿¿false
+19¿16¿CFG¿¿¿¿¿¿¿¿¿¿false
+16¿20¿CFG¿¿¿¿¿¿¿¿¿¿false
+14¿19¿FD¿FD¿¿¿¿¿¿¿¿¿false
+15¿19¿FD¿FD¿¿¿¿¿¿¿¿¿false
+12¿13¿CFG¿¿¿¿¿¿¿¿¿¿false
+13¿18¿CFG¿¿¿¿¿¿¿¿¿¿false

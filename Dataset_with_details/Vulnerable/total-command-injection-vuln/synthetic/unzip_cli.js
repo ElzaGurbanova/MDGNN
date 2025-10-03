@@ -1,0 +1,49 @@
+'use strict';
+/**
+ * DRY-RUN SHIM (in-file, always-on)
+ * This file intentionally patches require('child_process') to a harmless stub.
+ * The stub preserves API names (exec, execFile, spawn) so static graphs see real sinks,
+ * but nothing is executed.
+ */
+(function installDryRunShim(){
+  const Module = require('module');
+  const origRequire = Module.prototype.require;
+  Module.prototype.require = function(name){
+    if (name === 'child_process') {
+      const { EventEmitter } = require('events');
+      return {
+        exec(cmd, opts, cb){
+          if (typeof opts === 'function') { cb = opts; opts = {}; }
+          console.log('[DRYRUN exec]', cmd);
+          if (cb) process.nextTick(() => cb(null, 'simulated', ''));
+        },
+        execFile(file, args = [], opts, cb){
+          if (typeof opts === 'function') { cb = opts; opts = {}; }
+          console.log('[DRYRUN execFile]', file, args);
+          if (cb) process.nextTick(() => cb(null, 'simulated', ''));
+        },
+        spawn(file, args = [], opts = {}){
+          console.log('[DRYRUN spawn]', file, args);
+          const ee = new EventEmitter();
+          process.nextTick(() => ee.emit('close', 0));
+          return ee;
+        }
+      };
+    }
+    return origRequire.apply(this, arguments);
+  };
+  Object.freeze(Module.prototype);
+})();
+/** Unzipper CLI — VULNERABLE (shimmed real sinks) */
+const cp = require('child_process'); // shimmed
+// Usage: node unzip_cli.js <zip> <dest> [flags...]
+const zip = String(process.argv[2] || '');   // ⚠️ untrusted
+const dest = String(process.argv[3] || '');  // ⚠️ untrusted
+const flags = process.argv.slice(4).join(' '); // ⚠️ untrusted
+// ⚠️ Vulnerable: misuse spawn by splitting untrusted string into args
+const argString = flags + ' ' + zip + ' -d ' + dest;
+const args = argString.split(' ');
+const ch = cp.spawn('unzip', args);
+ch.on('close', (code) => console.log('unzip simulated close code', code));
+
+// End of sample

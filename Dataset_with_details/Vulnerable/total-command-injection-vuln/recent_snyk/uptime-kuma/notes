@@ -1,0 +1,3 @@
+LINK: https://security.snyk.io/vuln/SNYK-JS-UPTIMEKUMA-6092280
+GitHub: https://github.com/louislam/uptime-kuma/commit/711380bbbeffca21ce82fa6e9145020af53090da
+SINK: server/monitor-types/tailscale-ping.js

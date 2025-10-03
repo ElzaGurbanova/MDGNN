@@ -1,0 +1,2 @@
+https://github.com/expressjs/serve-static/blob/master/index.js
+Express middleware for static files that delegates to send and serves only within a configured root directory. Good, idiomatic example of safe routing to the filesystem

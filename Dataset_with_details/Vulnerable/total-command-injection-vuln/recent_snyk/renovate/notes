@@ -1,0 +1,4 @@
+LINK: https://security.snyk.io/vuln/SNYK-JS-RENOVATE-6672869
+GitHub: https://github.com/renovatebot/renovate/commit/1e941fd885c799f2d38f4084a6f4cb9438813c8f
+SINK: lib/modules/manager/helmv3/artifacts.ts#L80
+Notes: CVE not available
